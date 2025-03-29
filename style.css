@@ -170,6 +170,7 @@
   -webkit-transition: all 0s ease;
   transition: all 0s ease;
   letter-spacing: -1px;
+  cursor:url('img/hand.png'),auto;
 }
 .button3 a:hover{
 font-style: italic;
@@ -191,6 +192,7 @@ font-style: italic;
   -webkit-transition: all 0s ease;
   transition: all 0s ease;
   letter-spacing: -1px;
+  cursor:url('img/hand.png'),auto;
 }
 .button4 a:hover{
 font-style: italic;
@@ -212,6 +214,7 @@ font-style: italic;
   -webkit-transition: all 0s ease;
   transition: all 0s ease;
   letter-spacing: -1px;
+  cursor:url('img/hand.png'),auto;
 }
 .button5 a:hover{
 font-style: italic;
@@ -287,6 +290,7 @@ font-style: italic;
   0% {left: -1920px}
   100% {left: 0px}
 }
+
 .footer {
   margin-top: 1300px;
   width: 100%;
@@ -297,8 +301,87 @@ font-style: italic;
   position: absolute;
   z-index: 1001;
 }
+.webimg1 {
+  margin-top: 80px;
+  margin-left: -10px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1001;
+}
+.webimg2 {
+  margin-top: 80px;
+  margin-left: 1550px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1001;
+}
 
+.vect1 {
+  margin-top: -2000px;
+  margin-left: -20px;
+  animation: grow  2s linear infinite;
+}
 
+@keyframes grow {
+  from { opacity:1 }
+  to { opacity:0 }
+}
+
+.vect2 {
+  margin-top: -200px;
+  margin-left: 1500px;
+  animation: fly 3s alternate-reverse infinite;
+}
+.vect3 {
+  margin-top: -50px;
+  margin-left: 40px;
+  animation: fly2 5s alternate-reverse infinite;
+}
+
+@keyframes fly {
+  0% { transform: translateX(0px); }
+  25% { transform: translateX(-30px); }
+  50% { transform: translateX(-30px),translateY(-30px) }
+  75% { transform: translateY(-30px); }
+  100% { transform: translateX(0px); }
+}
+
+@keyframes fly2 {
+  0% { transform: translateX(0px); }
+  25% { transform: translateX(30px); }
+  50% { transform: translateX(30px),translateY(30px) }
+  75% { transform: translateY(30px); }
+  100% { transform: translateX(0px); }
+}
+
+.vect4 {
+  margin-top: -100px;
+  margin-left: 1400px;
+  animation: grow 3s alternate-reverse infinite;
+}
+
+/*бегущая строка*/
+.running4 {
+  margin-top: -1150px;
+  margin-left: 0px; 
+  width: 1920px;
+  height: 288px;
+  overflow:hidden;}
+.r4 {
+  position: relative;
+}
+.r4 {
+  left: 0;
+  animation: anim4 6s alternate-reverse infinite ;
+  animation-play-state: running;
+}
+@keyframes anim4 {
+  0% {left: -3250px}
+  100% {left: 0px}
+}
+.r4:hover {
+  animation-play-state: paused;
+}
  /*вебка */
  #video {
   border: 3px solid #FF007A;
@@ -343,6 +426,7 @@ font-style: italic;
   box-shadow: none;
   margin-left: 3px;
   margin-top: -341px;
+  cursor:url('img/click.png'),auto;
 }
 
 .contentarea {
