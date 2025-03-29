@@ -22,24 +22,6 @@
   font-style: italic;
 }
 
-.button2 a {
-  display: inline-block;
-  
-  color: #1D1C22; /* Цвет текста */
-  text-decoration: none; /* Убираем подчеркивание */
-  font-family: "Inter", sans-serif; /* Шрифт */
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 48px; /* Размер текста */
-  text-transform: uppercase;
-  -webkit-transition: all 0s ease;
-  transition: all 0s ease;
-  letter-spacing: -2px;
-}
-.button2 a:hover{
-font-style: italic;
-}
 
 /* Стили для розового прямоугольника */
 .pink-rectangle {

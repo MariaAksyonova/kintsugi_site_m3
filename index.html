@@ -13,7 +13,7 @@
     <script src="capture.js"></script>
     <title>Закрепленный хэдер</title>
     <style>
-        .button, .button2 {
+        .button {
             position: absolute;
         }
         .button3, .button4, .button5 {
@@ -25,10 +25,6 @@
             left: 27px; /* Отступ слева */
         }
 
-        .button2 {
-            top: 24px; /* Отступ сверху */
-            right: 27px;
-        }
 
         .text1 {
             top: 170px; /* Отступ сверху */
@@ -67,6 +63,31 @@
         .webimg {
             top: 3120px;
             left: 920px;
+        }
+        .foto {
+            position:absolute;
+            top:24px;
+            right:27px;
+            z-index:1111;
+        }
+        .btn {
+            position:absolute;
+            top: -10px;
+            right: 0px;
+            color: #1D1C22; /* Цвет текста */
+            text-decoration: none; /* Убираем подчеркивание */
+            font-family: "Inter", sans-serif; /* Шрифт */
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 48px; /* Размер текста */
+            letter-spacing: -2px;
+            cursor:pointer;
+            border:none;
+            background-color: transparent;
+        }
+        .btn:hover{
+            font-style: italic;
         }
        
     </style>
@@ -160,7 +181,7 @@
       <div class="flag">
         <img src="img/подсказка.svg" alt="lines" class="fl">
     </div>
-    
+
     <div class="running3">
         <img src="img/бегущая3.svg" alt="lines" class="r3">
       </div>
@@ -191,7 +212,21 @@
         
     </div>
     
-     
+     <div class="foto">
+        <img id="author" style="display:none;" src="img/contact popup.svg">
+        <div>
+        <button type="submit" class='btn' onclick="myImg()">CONTACT</button>
+        <script>
+            function myImg() {
+                let elem = document.getElementById('author');
+                let style = getComputedStyle(elem);
+                if (style.display === 'none') {
+                    document.getElementById('author').style.display='block';
+                } else if (style.display !== 'none') {
+                    document.getElementById('author').style.display='none';
+                }
+            }
+        </script>
 
     <!-- Остальное содержимое сайта -->
     <header>
