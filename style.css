@@ -329,7 +329,7 @@ font-style: italic;
 
 .vect2 {
   margin-top: -200px;
-  margin-left: 1500px;
+  margin-left: 1450px;
   animation: fly 3s alternate-reverse infinite;
 }
 .vect3 {
@@ -339,25 +339,62 @@ font-style: italic;
 }
 
 @keyframes fly {
-  0% { transform: translateX(0px); }
-  25% { transform: translateX(-30px); }
-  50% { transform: translateX(-30px),translateY(-30px) }
-  75% { transform: translateY(-30px); }
-  100% { transform: translateX(0px); }
+  0% { transform: translateY(0px); }
+  25% { transform: translateY(30px); }
+  50% { transform: translateY(-30px); }
+  75% { transform: translateY(30px); }
+  100% { transform: translateY(0px); }
 }
 
 @keyframes fly2 {
-  0% { transform: translateX(0px); }
-  25% { transform: translateX(30px); }
-  50% { transform: translateX(30px),translateY(30px) }
+  0% { transform: translateY(0px); }
+  25% { transform: translateY(30px); }
+  50% { transform: translateY(30px),translateX(-30px) }
   75% { transform: translateY(30px); }
-  100% { transform: translateX(0px); }
+  100% { transform: translateY(0px); }
 }
 
 .vect4 {
   margin-top: -100px;
   margin-left: 1400px;
   animation: grow 3s alternate-reverse infinite;
+}
+
+.tag1 {
+  margin-left: 40px;
+  margin-top: -800px;
+  animation: shake 4s ease infinite;
+}
+@keyframes shake {
+  0%, 100% {transform: translateX(0);}
+  10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
+  20%, 40%, 60%, 80% {transform: translateX(0px);}
+}
+.tag2 {
+  margin-left: -80px;
+  margin-top: 220px;
+  animation: shake 5s ease infinite;
+}
+.tag3 {
+  margin-left: 800px;
+  margin-top: 220px;
+  animation: shake 6s ease infinite;
+}
+.tag4 {
+  margin-left: 900px;
+  margin-top: 0px;
+  animation: shake 4s ease infinite;
+}
+.tag5 {
+  margin-left: 1450px;
+  margin-top: -200px;
+  animation: shake 5s ease infinite;
+}
+.tag6 {
+  margin-left: 1550px;
+  margin-top: -190px;
+  animation: shake 6s ease infinite;
+  overflow:hidden;
 }
 
 /*бегущая строка*/
@@ -440,6 +477,7 @@ font-style: italic;
   width:1920px;
   font-weight:800;
   font-style:normal;
+  z-index:2;
 }
  /*вебка */
 
