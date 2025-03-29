@@ -1,0 +1,383 @@
+* {
+  cursor:url("img/Arrow.png"),auto;
+}
+
+/* Стили для кнопки */
+.button a {
+    display: inline-block;
+    
+    color: #1D1C22; /* Цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-family: "Inter", sans-serif; /* Шрифт */
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px; /* Размер текста */
+    text-transform: uppercase;
+    -webkit-transition: all 0s ease;
+    transition: all 0s ease;
+    letter-spacing: -2px;
+}
+.button a:hover{
+  font-style: italic;
+}
+
+.button2 a {
+  display: inline-block;
+  
+  color: #1D1C22; /* Цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  font-family: "Inter", sans-serif; /* Шрифт */
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 48px; /* Размер текста */
+  text-transform: uppercase;
+  -webkit-transition: all 0s ease;
+  transition: all 0s ease;
+  letter-spacing: -2px;
+}
+.button2 a:hover{
+font-style: italic;
+}
+
+/* Стили для розового прямоугольника */
+.pink-rectangle {
+    width: 1920px;/* Ширина на всю ширину сайта */
+    height: 701px;
+    background-color: #FF007A; 
+}
+/* Стили для серого прямоугольника */
+.grey-rectangle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 1609px; 
+  height: 984px;
+  border-radius: 0px;
+  background-color: #444444; 
+}
+
+.text1 {
+  display: inline-block;
+  color: #E9FF6B; /* Цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  font-size: 220px; /* Размер текста */
+  z-index: 1001;
+  position: absolute;
+  text-align: center;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style:normal;
+  letter-spacing: -11px;
+  margin:auto;
+  width:1920px;
+}
+.text2 {
+  display: inline-block;
+  color: #E9FF6B; /* Цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  font-size: 115px; /* Размер текста */
+  z-index: 1001;
+  position: absolute;
+  text-align: center;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style:normal;
+  letter-spacing: -7px;
+  margin:auto;
+  width:1920px;
+}
+.text3 {
+  display: inline-block;
+  color: #E9FF6B; /* Цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  font-size: 27px; /* Размер текста */
+  z-index: 1001;
+  position: absolute;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style:normal;
+  letter-spacing: -1px;
+  margin:auto;
+  width:1920px;
+}
+.text4 {
+  display: inline-block;
+  color: #E9FF6B; /* Цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  font-size: 220px; /* Размер текста */
+  z-index: 1001;
+  position: absolute;
+  text-align: center;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style:normal;
+  letter-spacing: -11px;
+  margin:auto;
+  width:1920px;
+}
+.text5 {
+  display: inline-block;
+  color: #E9FF6B; /* Цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  font-size: 220px; /* Размер текста */
+  z-index: 1001;
+  position: absolute;
+  text-align: center;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style:normal;
+  letter-spacing: -11px;
+  margin:auto;
+  width:1920px;
+}
+.text6 {
+  display: inline-block;
+  color: #E9FF6B; /* Цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  font-size: 220px; /* Размер текста */
+  z-index: 1001;
+  position: absolute;
+  text-align: center;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style:normal;
+  letter-spacing: -11px;
+  margin:auto;
+  width:1920px;
+}
+.text7 {
+  display: inline-block;
+  color: #E9FF6B; /* Цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  font-size: 27px; /* Размер текста */
+  z-index: 1001;
+  position: absolute;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style:normal;
+  letter-spacing: -1px;
+  margin:auto;
+  width:1920px;
+}
+.button3 a {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  margin:auto;
+  width:1920px;
+  color: #FF007A; /* Цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  font-family: "Inter", sans-serif; /* Шрифт */
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 53px; /* Размер текста */
+  text-transform: uppercase;
+  -webkit-transition: all 0s ease;
+  transition: all 0s ease;
+  letter-spacing: -1px;
+}
+.button3 a:hover{
+font-style: italic;
+}
+.button4 a {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  margin:auto;
+  width:1920px;
+  color: #FF007A; /* Цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  font-family: "Inter", sans-serif; /* Шрифт */
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 53px; /* Размер текста */
+  text-transform: uppercase;
+  -webkit-transition: all 0s ease;
+  transition: all 0s ease;
+  letter-spacing: -1px;
+}
+.button4 a:hover{
+font-style: italic;
+}
+.button5 a {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  margin:auto;
+  width:1920px;
+  color: #FF007A; /* Цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  font-family: "Inter", sans-serif; /* Шрифт */
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 53px; /* Размер текста */
+  text-transform: uppercase;
+  -webkit-transition: all 0s ease;
+  transition: all 0s ease;
+  letter-spacing: -1px;
+}
+.button5 a:hover{
+font-style: italic;
+}
+
+/*бегущая строка*/
+.running1 {
+   margin-top: 685px;
+   margin-left: 0px; 
+   width: 1920px;
+   height: 209px;
+   overflow:hidden;}
+ .r1 {
+   position: relative;
+ }
+ .r1 {
+   left: 0;
+   animation: anim1 4s linear infinite ;
+   animation-play-state: running;
+ }
+ @keyframes anim1 {
+   0% {left: -2232px}
+   100% {left: 0px}
+ }
+
+ /*бегущая строка*/
+.running2 {
+   margin-top: 0px;
+   margin-left: 0px; 
+   width: 1920px;
+   height: 72px;
+   overflow:hidden;}
+ .r2 {
+   position: relative;
+ }
+ .r2 {
+   left: 0;
+   animation: anim2 5s linear infinite ;
+   animation-play-state: running;
+ }
+ @keyframes anim2 {
+   0% {left: -2389px}
+   100% {left: 0px}
+ }
+
+.flag {
+  margin-top: -1037px;
+  margin-left: -257px;
+  z-index: 1001;
+  position:absolute;
+  transform: translateX(0px);
+  transition: transform 1s ease;
+}
+
+.flag:hover {transform:translateX(257px)}
+
+ /*бегущая строка*/
+.running3 {
+  margin-top: 903px;
+  margin-left: 0px; 
+  width: 1920px;
+  height: 105px;
+  overflow:hidden;}
+.r3 {
+  position: relative;
+}
+.r3 {
+  left: 0;
+  animation: anim3 8s linear infinite ;
+  animation-play-state: running;
+}
+@keyframes anim3 {
+  0% {left: -1920px}
+  100% {left: 0px}
+}
+.footer {
+  margin-top: 1300px;
+  width: 100%;
+}
+.webimg {
+  margin-top: -500px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1001;
+}
+
+
+ /*вебка */
+ #video {
+  border: 3px solid #FF007A;
+  width: 440px;
+  height: 330px;
+  align-items: center;
+  margin-left:-9px;
+  border-radius: 30px;
+}
+
+#photo {
+  width: 440px;
+  height: 330px;
+  border-radius: 30px;
+}
+
+#canvas {
+  display:none;
+}
+
+.camera {
+  width: 440px;
+  display:inline-block;
+  
+}
+
+.output {
+  width: 440px;
+  display:inline-block;
+}
+
+#startbutton {
+  display:block;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  width: 440px;
+  height: 330px;
+  bottom:32px;
+  background-color: rgba(255, 159, 218, 0);
+  border:none;
+  box-shadow: none;
+  margin-left: 3px;
+  margin-top: -341px;
+}
+
+.contentarea {
+  font-size: 295px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #E9FF6B; /* Цвет текста */
+  display: inline-block;
+  letter-spacing: -4px;
+  margin:auto;
+  width:1920px;
+  font-weight:800;
+  font-style:normal;
+}
+ /*вебка */
+
+
+ /*перетаскивание */
+ 
+/*перетаскивание */
